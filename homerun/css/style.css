@@ -1,0 +1,555 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+/* bosh-qismi */
+
+header{
+    display: flex;
+    align-items: center;
+}
+header hr{
+    transform: rotate(-1deg);
+}
+header ul {
+    display: flex;
+    margin-left: 200px;
+    font-size: 1.33rem;
+}
+header ul li{
+    list-style-type: none;
+    margin-right: 45px;
+}
+header ul a{
+    text-decoration: none;
+    color: black;
+}
+header .header-login {
+    margin-left: 120px;
+  
+}
+header .header-login a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    padding: 10px 10px;
+    border: 2px solid #F8F4F4;
+    border-radius: 8px;
+}
+header .header-login .last-child{
+    border: none;
+    background: #0099FF;
+    border-radius: 8px;
+    color: #F8F4F4;
+}
+/* bosh-qismi */
+/* bosh-qismi-qutisi */
+.head-box {
+    position: relative;
+}
+.head-box h2{
+    margin-top: 50px;
+    font-size: 120px;
+    line-height: 110px;  
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgba(14, 16, 22, 0.95);
+}
+.head-box .head-box-p{
+    position: absolute;
+    top: 270px;
+    left: 450px;
+    width: 500px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 36px;
+    color: #35393F;
+}
+.head-box p{
+    position: absolute;
+    top: 500px;
+    left: 480px;
+    width: 411px;
+    height: 28px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #B2B2B2;
+}
+form{
+    position: relative;
+    top: 180px;
+    left: 450px;
+}
+form input{
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 10px 10px;
+    border: 3px solid #0099FF;
+}
+form button{
+    position: relative;
+    top: 0px;
+    left: -9px;
+    font-size: 1.5rem;
+    border-radius:0px 15px 15px 0px;
+    padding: 12.5px 10px;
+    background: #0099FF;
+    border: none;
+}
+.home-img{
+    position: relative;
+    left: 100px;
+    top: 250px;
+}
+/* bosh-qismi-qutisi */
+
+/* How Homerun works  */
+.homerun{
+    position: relative;
+    top: 290px;
+    left: 250px;
+}
+.homerun h3{
+    position: absolute;
+    top: -50px;
+    left: 310px;
+    font-size: 25px;
+}
+.homerun a img{
+    position: relative;
+    top: 5px;
+}
+.homerun a{
+    background-color: #fff;
+    padding: 15px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    position: absolute;
+    top: 450px;
+    font-size: 25px;
+    left: 260px;
+}
+/* How Homerun works  */
+/* hire */
+
+
+.hire-page{
+    position: relative;
+    display: flex;
+    top: 430px;
+}
+.hire-page .hire-page-text h3{
+    color: 
+    rgba(12, 159, 100, 1);
+    font-size: 40px;
+}
+.hire-page a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    padding: 15px 16px;
+    border: 2px solid #747272;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 27px;
+}
+
+/* hire */
+
+/* create-page  */
+.creat-page{
+    position: relative;
+    top: 563px;
+    left:0px;
+    display: flex;
+}
+.creat-page .creat-page-text{
+    position: relative;
+    left: 70px;
+}
+.creat-page h2{
+    font-size: 40px;
+    color:rgba(254, 193, 4, 1);
+}
+.creat-page a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    padding: 15px 16px;
+    border: 2px solid #747272;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 27px;
+}
+/* create-page  */
+
+/* join the club */
+.join-the-club{
+    position: relative;
+    top: 700px;
+    background-color:rgba(32, 46, 120, 1);
+    color: #fff;
+    height: 1130px;
+    border-radius: 20px;
+}
+
+
+.join-the-club .join-club-text img {
+    position: relative;
+    margin-top: 79px;
+    left: 650px;
+}
+.join-the-club .join-club-text h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 56px;
+    text-align: center;
+}
+
+.join-the-club .join-club-text p{
+    text-align: center;
+    font-size: 22px;
+    line-height: 31px;
+}
+.join-the-club .join-club-text a{
+    position: absolute;
+    top: 380px;
+    left: 550px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    padding: 15px 16px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 27px;
+}
+
+.join-the-club .join-club-img{
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: 80px;
+}
+
+.join-the-club  .join-club-img .club-img-text{
+    background-color:rgba(0, 6, 57, 1);
+    width: 580px;
+    height: 520px;
+    border-radius: 0px 20px 20px 0px;
+}
+.join-the-club  .join-club-img .club-img-text img{
+    margin-top: 50px;
+    position: relative;
+    left: 85px;
+}
+.join-the-club  .join-club-img .club-img-text .join-club-first-p{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 400px;
+    font-size: 25px;
+    line-height: 36px;
+}
+
+.join-the-club .club-img-text .join-club-last-p{
+    font-size: 19px;
+    line-height: 22px;
+    margin-left: 90px;
+}
+
+.join-the-club .club-img-text a{
+    position: absolute;
+    top: 400px;
+    left: 670px;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 16px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.club-box{
+    position: relative;
+    top: 250px;
+    left: 610px;
+    display: flex;
+    align-items: center;
+}
+.club-box .box1{
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+}
+.club-box .box{
+    width: 9px;
+    height: 9px;
+    background-color: rgb(78, 78, 78);
+    margin-left: 10px;
+}
+/* join the club */
+/* Kickstart hiring */
+.kickstart-page{
+    padding-top: 50px;
+    position: relative;
+    top: 740px;
+    background-color: #181818;
+    height: 990px;
+    border-radius: 20px;
+    color: #fff;
+}
+.kickstart-page .link1{
+    position: relative;
+    left: 655px;
+    background-color:  rgba(246, 71, 117, 1);
+    border-radius: 30px;
+    padding: 15px 20px;
+    text-decoration:  none;
+    color: #fff;
+}
+.kickstart-page h2{
+    width: 700px;
+    font-size: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.kickstart-page p{
+    width: 450px;
+    text-align: center;
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.kickstart-page .link2{
+    position: absolute;
+    top: 350px;
+    left:580px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    background-color: rgba(0, 153, 255, 1);
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.kickstart-page img{
+    width: 100%;
+    position: absolute;
+    top: 450px;
+    left: 0px;
+}
+/* Kickstart hiring */
+/* capterra */
+.star-persent{
+    position: relative;
+    top: 800px; 
+    width: 400px;
+    left: -300px;
+    display: flex;
+}
+.star-persent img{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.star-persent h2{
+    font-size: 82px;
+    margin-left: 50px;
+    margin-bottom:20px ;
+}
+.star-persent p{
+    font-size: 20px;
+    width: 350px;
+    text-align: center;
+}
+.star-persent .emoji{
+    font-size: 50px;
+}
+.star-persent .capterra1{
+    position: relative;
+    left: 300px;
+}
+/* capterra */
+
+/* dog-page */
+.dog-page{
+    position: relative;
+    top: 880px;
+    background-color: #3CA9FF;
+    height: 700px;
+    border-radius: 22px;
+}
+.dog-page img{
+    position: absolute;
+    left: 570px;
+    top: 60px;
+}
+
+.dog-page h2{
+    position: absolute;
+    width: 671px;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    top: 305px;
+    left: 345px;
+}
+.dog-page a{
+    position: absolute;
+    top: 493px;
+    left: 576px;
+    background-color:  #0E1016;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius:8px;
+    font-size: 20px;
+}
+.dog-page-flex{
+    display: flex;
+    color: #fff;
+    position: absolute;
+    top: 620px;
+    left: 400px;
+}
+.dog-page-flex p{
+    margin-right: 25px;
+    font-size: 25px;
+}
+/* dog-page */
+
+/* omeru */
+.omure-end-page{
+    position: relative;
+    top: 950px;
+    height: 630px;
+    background-color: #000;
+    border-radius: 22px;
+    display: flex;
+}
+
+.omure-end-page .omeru-img{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.omure-end-page .omeru-img button{
+    width: 150px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #029EFF;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 17px;
+    position: absolute;
+    left: 1200px;
+}
+.omure-end-page .product{
+    position: relative;
+    top: 125px;
+    left: 20px;
+}
+
+.omure-end-page .product a{
+    text-decoration: none;
+    color: #35393F;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.omure-end-page .product .nav1{
+    margin-top: 49px;
+}
+
+.omure-end-page .learn{
+    position: relative;
+    top: 125px;
+    font-size: 20px;
+    color: #35393F;
+    list-style-type: none;
+}
+.omure-end-page .learn li{
+    list-style-type: none;
+    line-height: 45px;
+    margin-left: 170px;
+}
+.omure-end-page .learn li button{
+    background-color: #F64775;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    padding: 5px 5px;
+}
+.omure-end-page .learn .nav2{
+    margin-top: 15px;
+}
+.omure-end-page .aboute {
+    position: relative;
+    color:  #35393F;
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 45px;
+    top: 125px;
+    left: 210px;
+}
+.omure-end-page .aboute button{
+    background-color: hsl(0, 100%, 49%);
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    width: 22px;
+    height: 22px;
+}
+.omure-end-page .art{
+    width: 330px;
+    position: relative;
+    top: 125px;
+    left: 300px;
+    color: #fff;
+}
+.omure-end-page .art h2{
+    margin-bottom: 20px;
+}
+.omure-end-page .art p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+.omure-end-page .art .img{
+    width: 400px;
+    display: flex;
+}
+
+/* omeru */
+
+
+
+
+@media (max-width:800px) {
+    .container{
+        width: 500px;
+    }
+    header ul {
+        display: none;
+    }
+}
